@@ -1,0 +1,163 @@
+def greeting():
+  #print("Hello, World!")
+  print('Python is awesome!')
+
+greeting()
+
+# give Python access to the turtle library
+import turtle
+
+# def draw_a_line():
+#   """Draw a line 50 pixels long."""
+ 
+#   turtle.forward(100)
+# #   turtle.right(90)
+# #   # turtle.forward(50)
+# draw_a_line()
+
+
+
+# def draw_a_square_w_var():
+#   """Draw a square using a variable."""
+
+#   side_length = 40
+#   left_angle = 90
+
+#   turtle.forward(side_length)
+
+#   turtle.left(left_angle)
+#   turtle.forward(side_length)
+
+#   turtle.left(left_angle)
+#   turtle.forward(side_length)
+
+#   turtle.left(left_angle)
+#   turtle.forward(side_length)
+
+# draw_a_square_w_var()
+
+
+
+
+# def draw_a_rectangle():
+#   """Draw a draw a rectangle."""
+  
+#   turtle.forward(20)
+
+#   turtle.left(90)
+#   turtle.forward(80)
+
+#   turtle.left(90)
+#   turtle.forward(20)
+
+#   turtle.left(90)
+#   turtle.forward(80)
+
+# draw_a_rectangle()
+
+# def draw_a_triangle():
+#   """Draw a triangle."""
+
+#   turtle.forward(90)
+
+#   turtle.right(150)
+#   turtle.forward(70)
+
+#   turtle.right(80)
+#   turtle.forward(50)
+
+# draw_a_triangle()
+
+
+# def draw_a_line_w_var():
+#     """Draw a line 50 pixels long using a variable."""
+
+#     length = 50
+#     turtle.forward(length)
+
+
+# draw_a_line_w_var()
+
+
+
+# def draw_a_spiral():
+#     """Draw a spiral."""
+
+#     right_angle = 90
+#     length = 5
+
+#     turtle_color = "green"
+#     turtle.color(turtle_color)
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+#     length = length + 0
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+#     length = length + 5
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+#     length = length + 5
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+#     length = length + 10
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+#     length = length + 15
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+#     length = length + 25
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+#     length = length + 40
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+#     length = length + 65
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+
+
+# draw_a_spiral()
+
+
+# def draw_a_square_with_while():
+#     """Draw a square using a while loop."""
+
+#     right_angle = 90
+#     length = 150
+#     num_sides = 4
+
+#     i = 0
+
+#     while i < num_sides:
+#         turtle.forward(length)
+#         turtle.left(right_angle)
+#         i = i + 1
+
+# draw_a_red_square_with_while()
+
+
+def draw_a_hexagon():
+    """Draw a hexagon."""
+
+    length = 30
+    num_sides = 26
+    angle = 360.0 / num_sides
+
+    i = 0
+
+    while i < num_sides:
+        turtle.forward(length)
+        turtle.left(angle)
+        i = i + 1
+
+
+draw_a_hexagon()
